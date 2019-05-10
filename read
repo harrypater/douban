@@ -1,0 +1,9 @@
+scrapy crawl douban_spider
+
+scrapy startproject douban
+
+scrapy genspider douban_spider movie.douban.com
+
+scrapy crawl douban_spider -o test.csv  json
+
+yum install -y lrzsz
